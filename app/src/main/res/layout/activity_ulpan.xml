@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UlpanActivity">
+
+    <TextView
+            android:text="Ulpan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView171"
+            android:textColor="#161313" android:textAlignment="center" android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textView172" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+    <TextView
+            android:text="Seus direitos : "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView172"
+            android:textColor="#161313"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@+id/textView171" android:layout_marginBottom="15dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/textView173"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+    <TextView
+            android:text="Vocês têm direito a ajuda no pagamento dos estudos de hebraico no Ulpan durante cinco meses
+         letivos. Este direito é válido até 18 meses depois do dia da Aliá"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/textView173"
+            android:textColor="#161313"
+            android:textAlignment="viewStart"
+            app:layout_constraintTop_toBottomOf="@+id/textView172" android:layout_marginBottom="543dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+            app:layout_constraintHorizontal_bias="0.0"/>
+    <TextView
+            android:text="A quem se dirigir : "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView174"
+            android:textColor="#161313"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView173" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.045"/>
+    <TextView
+            android:text="Consultores de aliá no Ministério da Aliá e da Integração"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView175" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView174"
+            app:layout_constraintVertical_bias="0.006" android:textColor="#161313"/>
+    <TextView
+            android:text="Site : "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView176" android:layout_marginEnd="8dp" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView175"
+            app:layout_constraintVertical_bias="0.072" android:textColor="#161313" android:textAlignment="center"/>
+    <TextView
+            android:text="www.klita.co.il"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView177" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView176"
+            app:layout_constraintVertical_bias="0.0" android:textAlignment="center" android:textColor="#0000f2"/>
+    <Button
+            android:text="Veja onde ha Ulpan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button27" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView177"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.057"/>
+    <ImageView
+            android:layout_width="162dp"
+            android:layout_height="113dp" app:srcCompat="@drawable/beithbrasil"
+            android:id="@+id/imageView39" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/button27" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+            android:text="Voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnVoltarDeUlpanzinho" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/imageView39"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

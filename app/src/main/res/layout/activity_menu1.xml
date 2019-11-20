@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Menu1Activity">
+
+    <TextView
+            android:text="OPÇÕES :"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextoSpinnerTipo"
+            android:textColor="#161313" android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:textAlignment="center"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.011"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/apprecomendaveis"
+            android:id="@+id/BtnApps"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/TextoSpinnerTipo"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.054"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/bancos"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/BtnBancos" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/TextoSpinnerTipo" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/BtnApps"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.054"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/beneficios"
+            android:id="@+id/BtnBeneficios" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/TextoSpinnerTipo" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/BtnBancos"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintVertical_bias="0.054"/>
+    <TextView
+            android:text="Apps recomendados"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BtnApps"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="Bancos"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/BtnBancos" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView10"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0" android:textAlignment="center"/>
+    <TextView
+            android:text="Benefícios"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/BtnBeneficios" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/textView11"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0" android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/classificados"
+            android:id="@+id/BtnClassificados"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="Classifícados"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BtnClassificados"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"
+            android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/israelpoust"
+            android:id="@+id/BtnCorreios" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/BtnClassificados"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.017"/>
+    <TextView
+            android:text="Correios"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BtnCorreios" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/textView13"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.002" android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/dicasdois"
+            android:id="@+id/BtnDica" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/BtnCorreios"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintVertical_bias="0.015"/>
+    <TextView
+            android:text="Dicas"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BtnDica" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/textView14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0" android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/duvida"
+            android:id="@+id/BtnDuvidas" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.057"/>
+    <TextView
+            android:text="Dúvidas"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/BtnDuvidas"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"
+            android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/planosdesaude"
+            android:id="@+id/BtnSaude"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/BtnDuvidas"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView14"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.057"/>
+    <TextView
+            android:text="Planos de saude"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/BtnSaude"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/telefones"
+            android:id="@+id/BtnTelefonesUteis"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/BtnSaude" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView15"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.666" app:layout_constraintVertical_bias="0.059"/>
+    <TextView
+            android:text="Telefones utéis"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/BtnTelefonesUteis" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/textView17"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintVertical_bias="0.003" android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/videos"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:id="@+id/BtnVideos" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.072"/>
+    <TextView
+            android:text="Videos exolicativos"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BtnVideos"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"
+            android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/logodofacebook"
+            android:id="@+id/BtnPaginasNoFaceBook"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@+id/BtnVideos"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.072"/>
+    <TextView
+            android:text="Pgs no Facebook"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView20" android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BtnPaginasNoFaceBook"
+            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.522"
+            android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="133dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/beithbrasil"
+            android:id="@+id/BtnFaleConosco" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/BtnPaginasNoFaceBook"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintVertical_bias="0.072"/>
+    <TextView
+            android:text="Fale conosco"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/textView20"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BtnFaleConosco"
+            app:layout_constraintHorizontal_bias="0.274" app:layout_constraintVertical_bias="0.0"
+            android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="160dp" app:srcCompat="@drawable/mamu"
+            android:id="@+id/ImagPropaganda" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

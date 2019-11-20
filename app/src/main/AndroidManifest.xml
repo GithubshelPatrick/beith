@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.shelpatrick.a18">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/beithbrasil"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".FotoParaCadastrarActivity">
+        </activity>
+        <activity android:name=".HaRishuiActivity">
+        </activity>
+        <activity android:name=".HabilitacaoActivity">
+        </activity>
+        <activity android:name=".DuvidasAutosActivity">
+        </activity>
+        <activity android:name=".FaleConoscoActivity">
+        </activity>
+        <activity android:name=".BeneficioPesquisaPorTipoActivity">
+        </activity>
+        <activity android:name=".AgenciasLeumiActivity">
+        </activity>
+        <activity android:name=".CuriosidadesActivity">
+        </activity>
+        <activity android:name=".CanaisActivity">
+        </activity>
+        <activity android:name=".PaginasNoFacebookActivity">
+        </activity>
+        <activity android:name=".FacebbokActivity">
+        </activity>
+        <activity android:name=".VideosActivity">
+        </activity>
+        <activity android:name=".UlpanEnderecosActivity">
+        </activity>
+        <activity android:name=".MerkazKlitaActivity">
+        </activity>
+        <activity android:name=".SecretariasActivity">
+        </activity>
+        <activity android:name=".hospitaisActivity">
+        </activity>
+        <activity android:name=".ConsuladoActivity">
+        </activity>
+        <activity android:name=".AeroportoActivity">
+        </activity>
+        <activity android:name=".ProfissionaisBrActivity">
+        </activity>
+        <activity android:name=".DuvidasActivity">
+        </activity>
+        <activity android:name=".GastronomiaActivity">
+        </activity>
+        <activity android:name=".DicasDeEventosActivity">
+        </activity>
+        <activity android:name=".DicasPromocoesActivity">
+        </activity>
+        <activity android:name=".DicasDeTurismoActivity">
+        </activity>
+        <activity android:name=".CorreioAgenciasActivity">
+        </activity>
+        <activity android:name=".OlharAnuncioActivity">
+        </activity>
+        <activity android:name=".ProcurarClassificadosActivity">
+        </activity>
+        <activity android:name=".AnunciarClassificadosActivity">
+        </activity>
+        <activity android:name=".InscricaoDeFilhosActivity">
+        </activity>
+        <activity android:name=".AgenciasDeAliaActivity">
+        </activity>
+        <activity android:name=".UlpanActivity">
+        </activity>
+        <activity android:name=".AjudaFinanceiraActivity">
+        </activity>
+        <activity android:name=".AberturaDeContaActivity">
+        </activity>
+        <activity android:name=".CertificadoDeOleActivity">
+        </activity>
+        <activity android:name=".TeudadZeutActivty">
+        </activity>
+        <activity android:name=".SeguroDeSaudeActivity">
+        </activity>
+        <activity android:name=".recemChegadoActivity">
+        </activity>
+        <activity android:name=".AgenciasMizrahiActivity">
+        </activity>
+        <activity android:name=".PaginasFaceBookActivity">
+        </activity>
+        <activity android:name=".CorreiosActivity">
+        </activity>
+        <activity android:name=".BeneficiosActivity">
+        </activity>
+        <activity android:name=".AppRecomendaveisActivity">
+        </activity>
+        <activity android:name=".DicasActivity">
+        </activity>
+        <activity android:name=".BancosActivity">
+        </activity>
+        <activity android:name=".PlanosDeSaudeActivity">
+        </activity>
+        <activity android:name=".ClassificadosMenuActivity">
+        </activity>
+        <activity android:name=".TelefonesUteisctivity">
+        </activity>
+        <activity android:name=".TermosActivity">
+        </activity>
+        <activity android:name=".Menu1Activity">
+        </activity>
+        <activity android:name=".EsqueciASenhaActivity">
+        </activity>
+        <activity android:name=".QueroMeCastrarActivity">
+        </activity>
+        <activity android:name=".Main2Activity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

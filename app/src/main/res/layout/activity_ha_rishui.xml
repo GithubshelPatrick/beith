@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HaRishuiActivity">
+
+    <TextView
+            android:text="Secretaria dos transmportes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView5" android:layout_marginEnd="8dp" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintVertical_bias="0.011" android:textAlignment="center" android:textColor="#161313"
+            android:textSize="30sp"/>
+    <TextView
+            android:text="BerSheva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView186" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.017" app:layout_constraintHorizontal_bias="0.023"/>
+    <TextView
+            android:text="Endereço : Shderot Shazar 33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView188" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView186"
+            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.028"/>
+    <TextView
+            android:text="Dias e horarios :Domingo a Quinta-feira, 8:00 – 13:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView194" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView188"
+            app:layout_constraintVertical_bias="0.003" app:layout_constraintHorizontal_bias="0.047"/>
+    <TextView
+            android:text="https://www.gov.il/en/subjects/automotive_and_transportation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView216" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView194" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:textColor="#506FC2" android:textAlignment="center"
+            app:layout_constraintVertical_bias="0.014" app:layout_constraintHorizontal_bias="0.027"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/waze"
+            android:id="@+id/imageView104" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/textView186" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView5"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/textView194"
+            app:layout_constraintHorizontal_bias="0.555" app:layout_constraintVertical_bias="0.555"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/ligardois"
+            android:id="@+id/imageView106" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView194" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/imageView104"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.274"
+            app:layout_constraintVertical_bias="0.178"/>
+    <TextView
+            android:text="Haifa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView217" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/textView216"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.031"/>
+    <TextView
+            android:text="Endereço : Edison 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:id="@+id/textView218" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView217"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="Dias e Horarios : Domingo a Quinta-feira, 8:00 – 13:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView219" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView218"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.011"/>
+    <TextView
+            android:text="https://patuah.co.il/en/b/department-of-motor-vehicles-edison-2-haifa--u4324"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView220" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView219"
+            app:layout_constraintVertical_bias="0.007"
+            android:textAlignment="center" android:textColor="#506FC2"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/waze"
+            android:id="@+id/imageView107" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/textView217" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/textView219"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView216"
+            app:layout_constraintHorizontal_bias="0.603" app:layout_constraintVertical_bias="0.791"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/ligardois"
+            android:id="@+id/imageView108"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView107" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/textView219"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView216"
+            app:layout_constraintHorizontal_bias="0.274" app:layout_constraintVertical_bias="0.791"/>
+    <TextView
+            android:text="Holon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView221" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/textView220"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.028"/>
+    <TextView
+            android:text="Endereço : Halochaim 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView222" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView221"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="Dias e horarios : Segunda-feira e Quarta-feira, 8:00 – 13:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView223" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView222"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/waze"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/imageView109" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView223" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView220" app:layout_constraintStart_toEndOf="@+id/textView221"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp" app:layout_constraintHorizontal_bias="0.598"
+            app:layout_constraintVertical_bias="1.0"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/ligardois"
+            android:id="@+id/imageView110" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView108" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/imageView109"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.274"
+            app:layout_constraintVertical_bias="0.185"/>
+    <Button
+            android:text="Voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/BtnVoltarDeHaRishui" android:layout_marginEnd="8dp" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.534"
+            app:layout_constraintVertical_bias="1.0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
